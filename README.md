@@ -9,4 +9,4 @@ Now, in order to predict whether the customer would be interested in Vehicle ins
 
 **Data Dictionary**
 
-<img src = Images/Data Dictionary.PNG></img>
+<img src = 'Images/Data Dictionary.PNG'></img>
