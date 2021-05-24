@@ -10,3 +10,8 @@ Now, in order to predict whether the customer would be interested in Vehicle ins
 **Data Dictionary**
 
 <img src = 'Images/Data Dictionary.PNG'></img>
+
+**Setup**
+
+1. Installing Dependencies :
+!pip install -r requirements.txt
