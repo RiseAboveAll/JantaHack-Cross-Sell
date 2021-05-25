@@ -19,6 +19,18 @@ def outlier_detection(df,col):
     
 
 
+# In[3]:
+
+
+def multi_outlier(condition,df,on_Col,out_Col):
+    sub_DF=df[df[on_Col]==condition]
+    index_=sub_DF.index.values
+    df.drop(index_,axis=0,inplace=True)
+    outlier_detection(df=sub_DF,col=out_Col)
+    data=pd.concat([df,sub_DF],axis=0)
+    return data
+
+
 # In[ ]:
 
 
