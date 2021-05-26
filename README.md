@@ -14,4 +14,17 @@ Now, in order to predict whether the customer would be interested in Vehicle ins
 **Setup**
 
 1. Installing Dependencies :
-!pip install -r requirements.txt
+
+> !pip install -r requirements.txt
+
+**Performance of Model** :
+
+> Train Average AUC : .84
+
+> Test Average AUC :.83
+
+**Saved Model**
+
+> Folder : Saved Model | File Name: cross-sale.h5
+
+> Load Model Syntax : clf.load_model('cross-sale.h5')
