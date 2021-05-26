@@ -28,3 +28,6 @@ Now, in order to predict whether the customer would be interested in Vehicle ins
 > Folder : Saved Model | File Name: cross-sale.h5
 
 > Load Model Syntax : clf.load_model('cross-sale.h5')
+
+
+**To know further of approach refer to cross-sale.pdf**
